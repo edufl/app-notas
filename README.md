@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# 🗒️ Notes App (estilo Google Keep)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicativo de notas desenvolvido com React, permitindo criar, editar e excluir notas em um layout tipo grid, com persistência de dados no localStorage.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+✔ Criar notas com título e conteúdo  
+✔ Editar notas existentes  
+✔ Deletar notas  
+✔ Layout em grid responsivo  
+✔ Perfil com foto editável  
+✔ Nome do usuário editável  
+✔ Troca de foto de perfil  
+✔ Persistência com localStorage  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Conceitos aplicados
 
-### `npm test`
+- useState (gerenciamento de estado)
+- useEffect (persistência de dados)
+- CRUD completo (Create, Read, Update, Delete)
+- Componentização (estrutura com components)
+- Grid layout responsivo
+- Manipulação de estados complexos
+- Persistência no navegador (localStorage)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚛️ React
+- 💾 localStorage
+- 🎨 CSS-in-JS (styles object)
+- 📱 CSS Grid
+- 🧩 Componentes reutilizáveis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estrutura do projeto
 
-### `npm run eject`
+src/
+ ├── App.js  
+ ├── App.css  
+ ├── assets/  
+ │    ├── perfil1.jpg  
+ │    ├── perfil2.jpg  
+ │    ├── perfil3.jpg  
+ ├── components/  
+ │    ├── NoteCard.js  
+ │    ├── NoteInput.js  
+ │    ├── NotesGrid.js  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Como rodar o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# clonar o repositório
+git clone https://github.com/edufl/notes-app.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# entrar na pasta
+cd notes-app
 
-## Learn More
+# instalar dependências
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# rodar o projeto
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por **edufl** 
