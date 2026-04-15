@@ -49,6 +49,7 @@ https://github.com/user-attachments/assets/1594e020-e9ff-4c72-a9ce-d7de9727179e
 
 ## 📂 Estrutura do projeto
 
+```bash
 src/
 ├── App.js  
 ├── App.css  
@@ -59,7 +60,8 @@ src/
 └── components/  
     ├── NoteCard.js  
     ├── NoteInput.js  
-    └── NotesGrid.js   
+    └── NotesGrid.js
+```
 
 ---
 
