@@ -6,14 +6,14 @@ Aplicativo de notas desenvolvido com React, permitindo criar, editar e excluir n
 
 ## 🚀 Funcionalidades
 
-✔ Criar notas com título e conteúdo  
-✔ Editar notas existentes  
-✔ Deletar notas  
-✔ Layout em grid responsivo  
-✔ Perfil com foto editável  
-✔ Nome do usuário editável  
-✔ Troca de foto de perfil  
-✔ Persistência com localStorage  
+- ✔ Criar notas com título e conteúdo  
+- ✏ Editar notas existentes  
+- ❌ Deletar notas  
+- 📐 Layout em grid responsivo  
+- 🖼 Perfil com foto editável  
+- 👤 Nome do usuário editável  
+- 🔄 Troca de foto de perfil  
+- 💾 Persistência com localStorage  
 
 ---
 ## 🎥 Demonstração do app-notas
@@ -50,19 +50,16 @@ https://github.com/user-attachments/assets/1594e020-e9ff-4c72-a9ce-d7de9727179e
 ## 📂 Estrutura do projeto
 
 src/
- ├── App.js  
- ├── App.css  
- ├── assets/  
- │    ├── perfil1.jpg  
- │    ├── perfil2.jpg  
- │    ├── perfil3.jpg  
- ├── components/  
- │    ├── NoteCard.js  
- │    ├── NoteInput.js  
- │    ├── NotesGrid.js  
-
----
-
+├── App.js  
+├── App.css  
+├── assets/  
+│   ├── perfil1.jpg  
+│   ├── perfil2.jpg  
+│   └── perfil3.jpg  
+└── components/  
+    ├── NoteCard.js  
+    ├── NoteInput.js  
+    └── NotesGrid.js   
 
 ---
 
