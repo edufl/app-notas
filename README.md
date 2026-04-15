@@ -16,6 +16,14 @@ Aplicativo de notas desenvolvido com React, permitindo criar, editar e excluir n
 ✔ Persistência com localStorage  
 
 ---
+## 🎥 Demonstração do app-notas
+
+
+
+
+https://github.com/user-attachments/assets/1594e020-e9ff-4c72-a9ce-d7de9727179e
+
+---
 
 ## 🧠 Conceitos aplicados
 
@@ -55,22 +63,27 @@ src/
 
 ---
 
+
+---
+
 ## ⚙️ Como rodar o projeto
 
+```bash
 # clonar o repositório
 git clone https://github.com/edufl/notes-app.git
 
 # entrar na pasta
-cd notes-app
+cd app-notas
 
 # instalar dependências
 npm install
 
 # rodar o projeto
 npm start
+```
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **edufl** 
+Desenvolvido por **edufl**
